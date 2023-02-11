@@ -2,10 +2,10 @@
 # vim: set ft=ruby :
 
 MACHINES = {
-  :otusBash => {
-        :box_name => "centos/7",
-        :ip_addr => '192.168.11.150'
-  }
+  :otuslinux => {
+        :box_name => "centos/stream8",
+        :ip_addr => '192.168.56.10',
+  },
 }
 
 Vagrant.configure("2") do |config|
